@@ -11,6 +11,20 @@ body{
     background-color: #f0f0f0;
 }
 
+.drop-bar{
+    display: none;
+}
+
+.drop-bar-option{
+    display: none;
+}
+
+#smallnav{
+    visibility: hidden;
+    height: 0px;
+}
+
+
 header{
     color: #f0f0f0;
     background-color: #0f0f0f;
