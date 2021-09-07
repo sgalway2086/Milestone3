@@ -4,24 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Le Delizie | Search</title>
-    <link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
   </head>
   <body>
     <header>
       <h1>Le Delizie</h1>
       <nav id = "largenav">
-        <a href = "{{ url_for('index') }}">Home</a>
-        <a href = "{{ url_for('search') }}">Search Recipes</a>
-        <a href = "{{ url_for('submit') }}">Submit Recipe</a>
+        <a href = "index.html">Home</a>
+        <a href = "search.html">Search Recipes</a>
+        <a href = "submit.html">Submit Recipe</a>
     </nav>
     <nav id = "smallnav">
         <div class="drop-bar-button"><span><i class="fas fa-bars header-fa"></i></span>
-          <a class="drop-bar-option" href="{{ url_for('index') }}">Home</a>
-          <a class="drop-bar-option" href="{{ url_for('search') }}">Search Recipes</a>
-          <a class="drop-bar-option" href="{{ url_for('submit') }}">Submit Recipe</a>
+          <a class="drop-bar-option" href="index.html">Home</a>
+          <a class="drop-bar-option" href="search.html">Search Recipes</a>
+          <a class="drop-bar-option" href="submit.html">Submit Recipe</a>
         </div>
-      </nav>
+    </nav>
     </header>
     <footer>
       <div id = "footerbox">
