@@ -79,6 +79,13 @@ a i{
     margin: auto;
 } 
 
+#submitRecipe{
+    background-color: #e6e6e6;
+    width: 60%;
+    padding: 32px 48px;
+    margin: auto;
+} 
+
 @media screen and (max-width: 1000px){
     nav a{
         margin-left: 16px;
