@@ -26,3 +26,14 @@ documents = coll.find()
 
 for doc in documents:
     print(doc)
+
+import webbrowser
+webbrowser.open("index.html")
+
+print("hello")
+
+if __name__ == "__main__":
+    app.run(
+        host=os.environ.get("IP", "0.0.0.0"),
+        port=int(os.environ.get("PORT", "5000")),
+        debug=True)
